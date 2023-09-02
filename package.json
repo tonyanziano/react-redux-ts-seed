@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-ts-seed",
+  "version": "1.0.0",
+  "description": "Boilerplate for bootstrapping a frontend web app with React, Redux, TypeScript, and Webpack so that you can start coding faster.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.8",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
